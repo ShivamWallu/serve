@@ -151,4 +151,4 @@ def get_user_fname():
 if __name__ == '__main__':
     os.environ["OPENAI_API_KEY"] = "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"
     get_index()
-    app.run(debug=True, port=5000)
+    app.run(debug=True, host='65.0.101.115', port=8501)
